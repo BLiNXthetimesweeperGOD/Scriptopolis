@@ -1,2 +1,3 @@
 # Scriptopolis
-A collection of source code and assets for my PyGame thing (which was originally built off of some old tutorial I found back in 2019... Can't find it anymore sadly).
+An absolute mess of source code. This was the first actual game-like thing I ever did with Python, so it's all over the place and really disorganized.
+Scriptopolis is a 2D platformer that was built off of the only tutorial I could find for this kind of thing back in 2019. If I remember correctly, the tutorial didn't include much when it came to scrolling (may be misremembering though), so I decided to sort of hack in scrolling myself. That's why the game is a bit of a buggy mess and why literally every single version of it is basically just a bunch of test levels, as I didn't want it to be an unplayable mess.
