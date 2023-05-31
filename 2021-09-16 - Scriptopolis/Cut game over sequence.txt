@@ -1,0 +1,33 @@
+##        if player.change_y > 100:
+##            player.jumps = 0
+##            player.totalseconds = 0
+##            player.timer = 0
+##            player.time.clear()
+##            current_level = GMOVER(player)
+##            drawgmovertxt = True
+##            player.died = True
+##            player.rect.x = 120
+##            player.rect.y = 120
+##            
+##            active_sprite_list.draw(screen)
+##            current_level_no == 2
+##            current_level = level_list[current_level_no]
+##            player.level = current_level
+##            current_level.update()
+##            current_level.draw(screen)
+##        if drawgmovertxt == True:
+##            screen.blit(gotxt, (320, 150))
+##            
+##            if player.fade > 0:
+##                player.fade-=1
+##            if player.fade < 100:
+##                if player.fade3 > 4:
+##                    player.fade3-=2
+##            if player.fade3 <= 10:
+##                if player.fade2 > 100:
+##                    player.fade2 -= 3
+##            for block in player.level.imageplatform_list:
+##                player.rect.bottom = block.rect.top
+##            for i in range(2500):
+##                A = screen.get_at((random.randint(1, 600), random.randint(1, 480)))
+##                screen.set_at((random.randint(1, 600), random.randint(1, 480)), A)
