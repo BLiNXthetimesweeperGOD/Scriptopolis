@@ -23,6 +23,7 @@ List of missing/unimplemented features and tools:
 - Enemies (and bosses)
 - Hazards (tiles that "hurt" the player)
 - Real particles (sprites or auto-generated graphics that get sent out of an object or area of the screen and can have their own physics)
+- World generation
 - A frame count and playback speed system for sprites instead of just using object states to set sprites
 - A health system (or power up system)
 - A ton of tile/floor types (A lot are listed but are just the default platform with no properties)
